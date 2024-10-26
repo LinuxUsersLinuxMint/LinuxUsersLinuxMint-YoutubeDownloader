@@ -1,11 +1,4 @@
-from pytube import YouTube
-from pytube import Playlist
-from art import *
-import os
-from youtubesearchpython import VideosSearch
-from Lang.lang import *
-from PyAppDevKit.LibFunc.pyappdevkit import *
-from PyAppDevKit.InfoLib.pyappdevkit_info import *
+from AppFunction.Lib.lib import *
 
 if not os.path.exists(music_file_txt):
     os.mkdir(music_file_txt)
