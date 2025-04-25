@@ -1,7 +1,7 @@
 from AppFunction.appfunction import *
 
 while True:
-    tprint("YT-DL")
+    tprint("Lxlm-YTdownloader")
     print("""
 -----------------------------------------------------------------------
 {0}
@@ -20,4 +20,4 @@ while True:
     elif choose == "4":
         video_search()
     elif choose == "5":
-        all_exit(OFF,exitselectdialog_txt,usertimedialog_txt,exitdialog_txt,errormsgdialog_txt)
+        all_exit(OFF,exit_lang,exitselectdialog_txt,usertimedialog_txt,exitdialog_txt,errormsgdialog_txt,SECOND)

@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-from PyAppDevKit.LibFunc.pyappdevkit import error_msg
+from PyAppDevKit.pyappdevkit import error_msg
 
 lang = str(input('Which language (English or Turkish)?: '))
 
@@ -29,6 +29,7 @@ if lang == "English" or lang == "EN" or lang == "en":
     usertimedialog_txt = "After how many seconds should the program be closed?: "
     exitdialog_txt = "Exit program..."
     errormsgdialog_txt = "Invalid Command!"
+    exit_lang = "EN"
 elif lang == "Türkçe" or lang == "TR" or lang == "tr":
     music_file_txt = "Müzik"
     video_file_txt = "Video"
@@ -54,5 +55,6 @@ elif lang == "Türkçe" or lang == "TR" or lang == "tr":
     usertimedialog_txt = "Program kaç saniye sonra kapatılsın?: "
     exitdialog_txt = "Programdan çıkış yapılıyor..."
     errormsgdialog_txt = "Geçersiz Komut!"
+    exit_lang = "TR"
 else:
-     error_msg("Invalid language selection!")
+     error_msg("Invalid language selection!","","")
