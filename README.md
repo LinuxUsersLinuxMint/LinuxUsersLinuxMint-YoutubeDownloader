@@ -39,11 +39,11 @@ python YoutubeDownloader.py
 
 
 ## Kullanılan Kütüphaneler
-[pytube](https://github.com/pytube/pytube)
-[art](https://github.com/sepandhaghighi/art)
-[youtube-search-python](https://github.com/alexmercerind/youtube-search-python)
-[os](https://github.com/python/cpython/blob/main/Lib/os.py)
-[PyAppDevKit](https://github.com/LinuxUsersLinuxMint/PyAppDevKit)
+* [pytube](https://github.com/pytube/pytube)
+* [art](https://github.com/sepandhaghighi/art)
+* [youtube-search-python](https://github.com/alexmercerind/youtube-search-python)
+* [os](https://github.com/python/cpython/blob/main/Lib/os.py)
+* [PyAppDevKit](https://github.com/LinuxUsersLinuxMint/PyAppDevKit)
 
 
 # (EN / English)
@@ -87,8 +87,8 @@ python YoutubeDownloader.py
 
 
 ## Libraries Used
-[pytube](https://github.com/pytube/pytube)
-[art](https://github.com/sepandhaghighi/art)
-[youtube-search-python](https://github.com/alexmercerind/youtube-search-python)
-[os](https://github.com/python/cpython/blob/main/Lib/os.py)
-[PyAppDevKit](https://github.com/LinuxUsersLinuxMint/PyAppDevKit)
+* [pytube](https://github.com/pytube/pytube)
+* [art](https://github.com/sepandhaghighi/art)
+* [youtube-search-python](https://github.com/alexmercerind/youtube-search-python)
+* [os](https://github.com/python/cpython/blob/main/Lib/os.py)
+* [PyAppDevKit](https://github.com/LinuxUsersLinuxMint/PyAppDevKit)
