@@ -6,15 +6,15 @@ Bu proje python ve çestli kütüphaneler kullanılarak yazılmıştır. Proje Y
 
 
 ## Projenin Özellikleri
-✅ Video İndirme
-✅ Shorts İndirme
-✅ Müzik İndirme
-✅ Playlist Olarak Video ve Müzik İndirme
-✅ YouTube'da Arama Yapma 
+* ✅ Video İndirme
+* ✅ Shorts İndirme
+* ✅ Müzik İndirme
+* ✅ Playlist Olarak Video ve Müzik İndirme
+* ✅ YouTube'da Arama Yapma 
 
 ## Kurulum Adımları ve Gereksinimler
-Python3
-pip
+* Python3
+* pip
 
 ### Kütüphane ve Diğer Gereksinimlerin Kurulumu
 
@@ -54,15 +54,15 @@ This project was written using Python and various libraries. The project allows 
 
 
 ## Features of the Project
-✅ Video Download
-✅ Shorts Download
-✅ Music Download
-✅ Download Videos and Music as Playlist
-✅ Searching YouTube
+* ✅ Video Download
+* ✅ Shorts Download
+* ✅ Music Download
+* ✅ Download Videos and Music as Playlist
+* ✅ Searching YouTube
 
 ## Installation Steps and Requirements
-Python3
-pip
+* Python3
+* pip
 
 ### Installing the Library and Other Requirements
 
