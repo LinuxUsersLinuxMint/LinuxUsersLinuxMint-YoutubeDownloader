@@ -7,20 +7,14 @@ Bu proje python ve çestli kütüphaneler kullanılarak yazılmıştır. Proje Y
 
 ## Projenin Özellikleri
 ✅ Video İndirme
-
 ✅ Shorts İndirme
-
 ✅ Müzik İndirme
-
 ✅ Playlist Olarak Video ve Müzik İndirme
-
 ✅ YouTube'da Arama Yapma 
 
 ## Kurulum Adımları ve Gereksinimler
 Python3
-
 pip
-
 
 ### Kütüphane ve Diğer Gereksinimlerin Kurulumu
 
@@ -28,15 +22,16 @@ pip
 #### Ubuntu & Debian Gerekli Program Ve Araçların Kurulumu
 ````
 sudo apt update
-sudo apt python
+sudo apt upgrade
+sudo apt install python3
 sudo apt install python3-pip
 sudo apt install git
 ````
 
 #### Programı İndirip Çalıştırma
 ````
-git clone https://github.com/ahmetozmtn/YoutubeDownloader.git
-cd YoutubeDownloader
+git clone https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint-YoutubeDownloader.git
+cd LinuxUsersLinuxMint-YoutubeDownloader
 pip install -r requirements.txt
 python YoutubeDownloader.py
 ````
@@ -45,12 +40,10 @@ python YoutubeDownloader.py
 
 ## Kullanılan Kütüphaneler
 [pytube](https://github.com/pytube/pytube)
-
 [art](https://github.com/sepandhaghighi/art)
-
 [youtube-search-python](https://github.com/alexmercerind/youtube-search-python)
-
 [os](https://github.com/python/cpython/blob/main/Lib/os.py)
+[PyAppDevKit](https://github.com/LinuxUsersLinuxMint/PyAppDevKit)
 
 
 # (EN / English)
@@ -62,20 +55,14 @@ This project was written using Python and various libraries. The project allows 
 
 ## Features of the Project
 ✅ Video Download
-
 ✅ Shorts Download
-
 ✅ Music Download
-
 ✅ Download Videos and Music as Playlist
-
 ✅ Searching YouTube
 
 ## Installation Steps and Requirements
 Python3
-
 pip
-
 
 ### Installing the Library and Other Requirements
 
@@ -83,15 +70,16 @@ pip
 #### Ubuntu & Debian Installation of Required Programs and Tools
 ````
 sudo apt update
-sudo apt python
+sudo apt upgrade
+sudo apt install python3
 sudo apt install python3-pip
 sudo apt install git
 ````
 
 #### Downloading and Running the Program
 ````
-git clone https://github.com/ahmetozmtn/YoutubeDownloader.git
-cd YoutubeDownloader
+git clone https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint-YoutubeDownloader.git
+cd LinuxUsersLinuxMint-YoutubeDownloader
 pip install -r requirements.txt
 python YoutubeDownloader.py
 ````
@@ -100,9 +88,7 @@ python YoutubeDownloader.py
 
 ## Libraries Used
 [pytube](https://github.com/pytube/pytube)
-
 [art](https://github.com/sepandhaghighi/art)
-
 [youtube-search-python](https://github.com/alexmercerind/youtube-search-python)
-
 [os](https://github.com/python/cpython/blob/main/Lib/os.py)
+[PyAppDevKit](https://github.com/LinuxUsersLinuxMint/PyAppDevKit)
