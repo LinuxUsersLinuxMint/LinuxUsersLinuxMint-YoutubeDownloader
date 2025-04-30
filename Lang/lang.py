@@ -25,10 +25,6 @@ if lang == "English" or lang == "EN" or lang == "en":
     option_four = "4- Video Search"
     option_five = "5- Exit"
     choose_txt = "Please Make Your Choice: "
-    exitselectdialog_txt = "Select the method to exit the program (0: Dialogue and Time entry, 1: Time entry only, 2: Dialogue entry only, 3: Normal exit (old style)): "
-    usertimedialog_txt = "After how many seconds should the program be closed?: "
-    exitdialog_txt = "Exit program..."
-    errormsgdialog_txt = "Invalid Command!"
     exit_lang = "EN"
 elif lang == "Türkçe" or lang == "TR" or lang == "tr":
     music_file_txt = "Müzik"
@@ -51,10 +47,6 @@ elif lang == "Türkçe" or lang == "TR" or lang == "tr":
     option_four = "4- Video Arama"
     option_five = "5- Çıkış"
     choose_txt = "Lütfen Seçiminizi Yapın: "
-    exitselectdialog_txt = "Programdan çıkış yöntemini seçin (0: Diyalog ve Zaman girişi, 1: Yalnızca Zaman girişi, 2: Yalnızca Diyalog girişi, 3: Normal çıkış (eski stil)): "
-    usertimedialog_txt = "Program kaç saniye sonra kapatılsın?: "
-    exitdialog_txt = "Programdan çıkış yapılıyor..."
-    errormsgdialog_txt = "Geçersiz Komut!"
     exit_lang = "TR"
 else:
      error_msg("Invalid language selection!","","")

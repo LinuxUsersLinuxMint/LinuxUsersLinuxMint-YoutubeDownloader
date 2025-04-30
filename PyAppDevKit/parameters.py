@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 ON="ON"
-OFF="ON"
+OFF="OFF"
 EN="EN"
 TR="TR"
 MILISECOND="MILISECOND"
