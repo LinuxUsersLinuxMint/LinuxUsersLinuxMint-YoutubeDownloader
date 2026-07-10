@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-""" Copyright© 2025 LinuxUsersLinuxMint
-LinuxUsersLinuxMint-YoutubeDownloader Tüm Hakları GPL(Genel Kamu Lisansı) altında korunmaktadır.
-LinuxUsersLinuxMint-YoutubeDownloader All Rights Reserved under the GPL(General Public License).
-Bu Yazılımın Bir Kopyası GitHub da yayınlanmaktadır Görüntülemek için: https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint-YoutubeDownloader
-A Copy of This Software is published on GitHub To view: https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint-YoutubeDownloader"""
+""" Copyright© 2025-2026 OpenSoftware-World
+OpenSoftware-World-YoutubeDownloader Tüm Hakları GPL(Genel Kamu Lisansı) altında korunmaktadır.
+OpenSoftware-World-YoutubeDownloader All Rights Reserved under the GPL(General Public License).
+Bu Yazılımın Bir Kopyası GitHub da yayınlanmaktadır Görüntülemek için: https://github.com/OpenSoftware-World/OpenSoftware-World-YoutubeDownloader
+A Copy of This Software is published on GitHub To view: https://github.com/OpenSoftware-World/OpenSoftware-World-YoutubeDownloader"""
 
 from DownloadWindow.Video.video_download import *
 from DownloadWindow.Music.music_download import *
@@ -39,10 +39,10 @@ def tray():
     )
 
     about = pystray.Menu(
-        pystray.MenuItem(github_repo_txt, lambda: open_url("https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint-YoutubeDownloader")),
-        pystray.MenuItem(my_github_acc_txt, lambda: open_url("https://github.com/LinuxUsersLinuxMint")),
-        pystray.MenuItem("Web Site", lambda: open_url("https://linuxuserslinuxmint.github.io/")),
-        pystray.MenuItem(documents_txt, lambda: open_url("https://linuxuserslinuxmint.github.io/Documents/documents"))
+        pystray.MenuItem(github_repo_txt, lambda: open_url("https://github.com/OpenSoftware-World/OpenSoftware-World-YoutubeDownloader")),
+        pystray.MenuItem(my_github_acc_txt, lambda: open_url("https://github.com/OpenSoftware-World")),
+        pystray.MenuItem("Web Site", lambda: open_url("https://opensoftware-world.com/")),
+        pystray.MenuItem(documents_txt, lambda: open_url("https://opensoftware-world.com/Documents/documents"))
     )
 
     menu = pystray.Menu(
@@ -52,7 +52,7 @@ def tray():
         pystray.MenuItem(close_txt, lambda: window_m("exit"))
     )
 
-    icon = pystray.Icon("LinuxUsersLinuxMint-YTDownloader", image, "LinuxUsersLinuxMint-YTDownloader", menu)
+    icon = pystray.Icon("OpenSoftware-World-YTDownloader", image, "OpenSoftware-World-YTDownloader", menu)
     icon.run()
 
 def close(event=None):
@@ -60,11 +60,11 @@ def close(event=None):
 
 window = customtkinter.CTk()
 window.geometry("730x160")
-window.title("LinuxUsersLinuxMint YTDownloader")
-window.iconbitmap("Icon/lxlm_yt_downloader.ico")
-lxlm_yt_downloader_title = customtkinter.CTkLabel(master=window, text="LinuxUsersLinuxMint YTDownloader", font=(userFont, userTitleFontSize, userFontBold), text_color=userWindowTitleColor)
+window.title("OpenSoftware-World YTDownloader")
+window.iconbitmap("Icon/osw_yt_downloader.ico")
+lxlm_yt_downloader_title = customtkinter.CTkLabel(master=window, text="OpenSoftware-World YTDownloader", font=(userFont, userTitleFontSize, userFontBold), text_color=userWindowTitleColor)
 lxlm_yt_downloader_title.place(x=10, y=50)
-img = Image.open("Icon/lxlm_yt_downloader.png")
+img = Image.open("Icon/osw_yt_downloader.png")
 img = img.resize((100, 100))
 img = ImageTk.PhotoImage(img)
 lxlm_yt_downloader_icon = customtkinter.CTkLabel(master=window, text="", image=img)
